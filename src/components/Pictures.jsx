@@ -57,7 +57,7 @@ export function Pictures () {
                 </div>
 
                 <div className="slide__text-container">
-                    <p className="slide__text">(Escoge izquierda o derecha)</p>
+                    <p className="slide__text">(Desliza hacia la derecha)</p>
                 </div>
 
             </div>
