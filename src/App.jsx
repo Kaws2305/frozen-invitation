@@ -11,6 +11,7 @@ import { Iitinerario } from './components/Itinerario';
 import { Dresscode } from './components/Dresscode';
 import { Giftable } from './components/Giftable';
 import { Confirmation } from './components/Confirmation';
+import { Phrase } from './components/Phrase';
 
 
 
@@ -30,6 +31,7 @@ export function App (){
             <Dresscode />
             <Giftable />
             <Confirmation />
+            <Phrase />
 
             
         </section>

@@ -2,10 +2,10 @@
 .confirmation{
     width: 100%;
     height: 600px;
-    background: #000a;
+    background: url('../assets/fondo_tree.jpg') center / cover no-repeat;
     position: absolute;
     z-index: 55;
-    top: 7435px;
+    top: 7025px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,6 @@
 .confirmation__container{
     width: 90%;
     height: 570px;
-    background: rgba(128, 0, 128, 0.342);
 }
 
 
@@ -28,12 +27,13 @@
     width: 100%;
     height: auto;
     text-align: center;
-    color: #fff;
-    padding-top: 30px;
+    color: #000;
+    padding-top: 340px;
 }
 
 .confirmation__tittle{
     font-size: 27px;
+    font-family: 'Pridi';
 }
 
 
@@ -43,13 +43,12 @@
 .confirmation__links-container{
     width: 100%;
     height: 400px;
-    margin-top: 40px;
-    background: rgba(255, 0, 0, 0.493);
+    margin-top: -95px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 20px;
 }
 
 
@@ -57,8 +56,8 @@
 /*----- CONFIRMATION LINK USER -----*/
 .link__user{
     display: flex;
-    background: #000;
-    padding: 20px;
+    background: #444c97;
+    padding: 15px 20px;
     border-radius: 30px;
     align-items: center;
     gap: 10px;

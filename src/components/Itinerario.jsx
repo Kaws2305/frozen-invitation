@@ -47,7 +47,7 @@ export function Iitinerario () {
                         <img src={dance} alt="dance" className="dance" />
 
                         <div className="icons__text text__baile">
-                            <p className="baile__text">!A bailar¡<br></br><strong>11:00 pm</strong></p>
+                            <p className="baile__text">A bailar<br></br><strong>11:00 pm</strong></p>
                         </div>
 
 

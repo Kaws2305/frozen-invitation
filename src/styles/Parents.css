@@ -77,14 +77,14 @@
   font-weight: 600;
   font-family: 'Parisienne';
   line-height: 35px;
+  color: #000;
 }
 
 
-
-
-
-
-
+.bxs-heart{
+    font-size: 60px;
+    color: #000;
+}
 
 
 

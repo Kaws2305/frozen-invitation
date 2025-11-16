@@ -1,10 +1,10 @@
 /*===== GIFTABLE =====*/
 .giftable{
     width: 100%;
-    height: 650px;
+    height: 550px;
     position: absolute;
-    background: rgba(255, 0, 0, 0.329);
-    top: 6785px;
+    background: url('../assets/ice_bg.jpg') center / cover no-repeat;
+    top: 6475px;
     z-index: 55;
     display: flex;
     justify-content: center;
@@ -17,7 +17,6 @@
 .giftable__container{
     width: 90%;
     height: 570px;
-    background: #0009;
 }
 
 
@@ -27,12 +26,13 @@
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 30px 0 0 0;
-    color: #fff;
+    padding: 70px 0 0 0;
+    color: #000;
 }
 
 .giftable__tittle{
-    font-size: 27px;
+    font-size: 28px;
+    font-family: 'Pridi';
 }
 
 
@@ -44,19 +44,21 @@
 .giftable__logos-container{
     width: 100%;
     height: 300px;
-    background: rgba(255, 255, 0, 0.315);
-    margin-top: 40px;
+    margin-top: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 
 /*-- LIVERPOOL LINK CONTENT --*/
-.liverpool__link{
-    width: 260px;
+.liverpool__link,
+.sears__link{
+    width: 225px;
     height: 95px;
-    background: rgb(128, 0, 128);
+    background: rgb(255, 0, 128);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,9 +70,17 @@
     border-radius: 20px;
 }
 
+.sears__link{
+    background: rgb(233, 13, 13) ;
+}
+
 
 .liverpool__image{
-    width: 75px;
+    width: 65px;
+}
+
+.sears__image{
+    width: 170px;
 }
 
 
@@ -82,5 +92,13 @@
     height: auto;
     margin: auto;
     text-align: center;
-    color: #fff;
+    color: #000;
+    margin-top: 40px;
+}
+
+
+.giftable__text{
+    font-family: 'Nanum Myeongjo';
+    font-weight: 800;
+    font-size: 20px;
 }

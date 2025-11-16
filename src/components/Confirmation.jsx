@@ -18,7 +18,7 @@ export function Confirmation () {
 
                     <a href="https://wa.me/525543685379?text=Hola%20Miriam%20ahi%20estare.%20" className="link__miriam link__user" target='_blank'>
                         <i class='bx bxl-whatsapp whats__icon'></i>
-                        <p className="link__text">CONFIRMAR CON MIRI</p>
+                        <p className="link__text">CONFIRMAR CON MIRIAM</p>
                     </a>
 
                     <a href="https://wa.me/525532184455?text=Hola%20Aldo%20ahi%20estare.%20" className="link__aldo link__user" target='_blank'>
