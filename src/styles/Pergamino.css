@@ -36,15 +36,15 @@
 /*----- PERGAMINO TEXT CONTENT -----*/
 .pergamino__text-container{
     position: absolute;
-    top: 230px;
-    right: 37px;
+    top: 180px;
+    right: 60px;
     z-index: 55;
     text-align: center;
 }
 
 .pergamino__text{
-    font-size: 19px;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-family:'Parisienne';
     font-weight: 600;
 }
 
