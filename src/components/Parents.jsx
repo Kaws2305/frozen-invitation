@@ -1,6 +1,5 @@
 import '../styles/Parents.css';
-import arcOne from '../assets/arco-one.png';
-import arcoTwo from '../assets/arco-two.png';
+
 
 
 export function Parents () {
@@ -11,29 +10,26 @@ export function Parents () {
 
             <div className="parents__container">
 
-                <div className="arco__one-container">
 
-                    <img src={arcoTwo} alt="arco" className="arco__one" />
-
-                    <div className="arco__text-container">
-                        <h3 className="arco__tittle">MIS PADRES</h3>
-                        <p className="arco__text">MIRIAM RIVERA<br></br>ALDO PIMENTEL</p>
-                    </div>
-
+                <div className="parents__phrase-one-container">
+                    <p className="parents__phrase-one">Con todo mi corazón,<br></br>agradezco con la bendición<br></br> de Dios a</p>
                 </div>
 
-
-                <div className="arco__one-container-two">
-
-                    <img src={arcOne} alt="arco" className="arco__two" />
-
-                    <div className="arco__text-container-two">
-                        <h3 className="arco__tittle-two">MIS PADRINOS</h3>
-                        <p className="arco__text-two">JUAN LOPEZ<br></br>VICKY GUTIERREZ</p>
-                    </div>
-
+                <div className="parents__padres-container ">
+                    <h4 className="padres__tittle">- MIS PADRES -</h4>
+                    <p className="parents__padres">Miriam Rivera<br></br>Aldo Pimentel</p>
                 </div>
 
+                <div className="parents__padrinos-container">
+                    <h4 className="padrinos__tittle">- MIS PADRINOS -</h4>
+                    <p className="parents__padrinos">Juan López<br></br>Vicky Gutiérrez</p>
+                </div>
+
+                <div className="parents__phrase-two-container">
+                    <p className="parents__phrase-two">Por ser parte de esta<br></br>nueva etapa. Nos<br></br>complace invitarte a ser<br></br>parte de este gran día.</p>
+                </div>
+
+            
             </div>
 
         </section>
