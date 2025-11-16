@@ -1,6 +1,7 @@
 //IMPORT CSS APP
 import './App.css';
 //IMPORT COMPONENTS JSX
+import { Modals } from './components/Modals';
 import { Portada } from './components/Portada';
 import { Datecustom } from './components/Datecustom';
 import { Pergamino } from './components/Pergamino';
@@ -20,7 +21,8 @@ export function App (){
     return(
 
         <section className="app">
-
+            
+            <Modals />
             <Portada />
             <Datecustom />
             <Pergamino />
