@@ -1,0 +1,115 @@
+/*===== PARENTS =====*/
+.parents{
+    width: 100%;
+    height: auto;
+    background: url('../assets/blue__bg.jpg') center / cover no-repeat;
+    position: absolute;
+    z-index: 55;
+    top: 2685px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*----- PARENTS CONTAINER -----*/
+.parents__container{
+    width: 90%;
+    height: 1200px;
+    padding: 40px 0;
+}
+
+
+
+/*----- ARCO ONE CONTENT -----*/
+.arco__one-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.arco__one{
+    width: 360px;
+    height: 450px;
+    position: absolute;
+    z-index: 50;
+}
+
+
+
+
+
+
+/*----- ARCO ONE TEXT CONTENT ------*/
+.arco__text-container{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    z-index: 51;
+    top: 60px;
+    font-family: sans-serif;
+}
+
+
+.arco__tittle{
+    padding: 30px 0 90px 0;
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+
+.arco__text{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+
+/*----- ARCO TWO CONTENT -----*/
+.arco__one-container-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    background: #0007;
+}
+
+
+.arco__two{
+    width: 375px;
+    position: absolute;
+    z-index: 50;
+}
+
+
+
+
+/*----- ARCO TWO TEXT CONTENT ------*/
+.arco__text-container-two{
+    width: 90%;
+    position: absolute;
+    z-index: 55;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.arco__tittle-two{
+    padding: 100px 0 90px 0;
+    font-size: 27px;
+    position: relative;
+    right: -30px;
+}
+
+.arco__text-two{
+    font-size: 25px;
+    position: relative;
+    right: -30px;
+}

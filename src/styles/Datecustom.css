@@ -1,0 +1,104 @@
+/*===== COUNTDOWN =====*/
+.datecustom{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 580px;
+    z-index: 60;
+}
+
+
+
+
+/*----- SNOW APARTADO CONTENT -----*/
+.snow__apartado-container{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 60;
+}
+
+.snow__apartado{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 10px #000d);
+
+}
+
+
+
+
+/*----- COUNTDOWN CONTAINER CONTENT -----*/
+.datecustom__container{
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(transparent, rgba(221, 241, 255, 0.521));
+    backdrop-filter: blur(2px);
+    position: absolute;
+    z-index: 70;
+    top: 90px;
+    border-top: 5px solid rgb(149, 189, 248);
+    border-bottom: 5px solid rgb(149, 189, 248);
+}
+
+
+
+
+/*----- SVG POSITION CONTENT -----*/
+.copos{
+    width: 34px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background:rgb(149, 189, 248);
+    padding: 3px;
+    border-radius: 90px;
+}
+
+.copo__two{
+    bottom: -240px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+
+
+/*----- DATE CONTAINER CONTENT -----*/
+.countdown{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/*----- DATE TEXT CONTENT -----*/
+.date__text-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-family: system-ui;
+    color: #5869ff;
+    font-weight: 800;
+}
+
+.date__day{
+    color: #fff;
+    background: #5869ff;
+    padding: 1px 6px;
+    border-radius: 90px;
+}

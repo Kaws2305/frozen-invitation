@@ -1,0 +1,49 @@
+/*===== UBICATION =====*/
+.ubication{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 55;
+    top: 2285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000a;
+}
+
+
+/*----- UBICATION CONTAINER -----*/
+.ubication__container{
+    width: 90%;
+    height: 1600px;
+}
+
+
+
+
+/*----- UBICATION TITTLE CONTENT -----*/
+.ubication__tittle-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 60px;
+}
+
+.ubication__tittle{
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+
+
+/*----- UBICATION CARDS CONTENT -----*/
+.ubication__cards-container{
+    width: 90%;
+    height: 585px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}

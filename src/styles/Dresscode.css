@@ -1,0 +1,96 @@
+/*===== DRESSCODE =====*/
+.dresscode{
+    width: 100%;
+    height: 600px;
+    background: #0009;
+    position: absolute;
+    z-index: 55;
+    top: 6185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+/*----- DRESSCODE CONTAINER -----*/
+.dresscode__container{
+    width: 90%;
+    height: 570px;
+    background: rgba(255, 0, 0, 0.336);
+}
+
+
+
+/*----- DRESSCOODE TITTLE CONTENT ------*/
+.dresscode__tittle-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.dresscode__tittle{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+/*------ DRESSCODE CONTENT ------*/
+.dresscode__content{
+    width: 100%;
+    height: 470px;
+    background: rgba(0, 0, 255, 0.315);
+    margin-top: 20px;
+}
+
+
+
+
+
+/*-- DRESCODE IMAGE CONTENT --*/
+.dresscode__image-container{
+    width: 90%;
+    height: 310px;
+    background:  rgba(255, 255, 0, 0.432);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.dresscode__image{
+    width: 300px;
+}
+
+
+
+/*---- DRESSCODE SUBTITTLE CONTENT ----*/
+.dresscode__subtittle-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/*---- DRESCODE TEXT CONTENT -----*/
+.dresscode__text-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}

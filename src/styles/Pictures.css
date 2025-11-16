@@ -1,0 +1,72 @@
+/*===== PICTURES =====*/
+.pictures{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top:655px;
+    z-index: 50;
+}
+
+
+/*----- APARTADO ONE CONTENT -----*/
+.apartado__one-container{
+    width: 100%;
+    height: 280px;
+}
+
+.apartado__one{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 7px 13px #000);
+}
+
+
+
+
+/*----- PICTURES CONTAINER -----*/
+.pictures__container{
+    width: 100%;
+    height: 750px;
+    background: url('../assets/ice_bg.jpg') center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*----- SLIDE TITTLE CONTENT -----*/
+.slide__tittle{
+    font-size: 40px;
+    font-family: system-ui;
+}
+
+
+
+
+
+/*----- SLIDE CONTAINER -----*/
+.slider__container{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*----- SLIDE TEXT CONTENT -----*/
+.slide__text-container{
+    margin-top: -40px;
+}
+
+.slide__text{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+}

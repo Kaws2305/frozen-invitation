@@ -1,0 +1,86 @@
+/*===== GIFTABLE =====*/
+.giftable{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    background: rgba(255, 0, 0, 0.329);
+    top: 6785px;
+    z-index: 55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*----- GIFTABLE CONTAINER ------*/
+.giftable__container{
+    width: 90%;
+    height: 570px;
+    background: #0009;
+}
+
+
+
+/*----- GIFTABLE TITTLE CONTAINER ------*/
+.giftable__tittle-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px 0 0 0;
+    color: #fff;
+}
+
+.giftable__tittle{
+    font-size: 27px;
+}
+
+
+
+
+
+
+/*----- GIFTABLE LOGOS CONTENT -----*/
+.giftable__logos-container{
+    width: 100%;
+    height: 300px;
+    background: rgba(255, 255, 0, 0.315);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-- LIVERPOOL LINK CONTENT --*/
+.liverpool__link{
+    width: 260px;
+    height: 95px;
+    background: rgb(128, 0, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+
+
+.liverpool__image{
+    width: 75px;
+}
+
+
+
+
+/*---- GIFTABLE TEXT CONTAINER -----*/
+.giftable__text-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}

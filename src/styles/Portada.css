@@ -1,0 +1,39 @@
+/*===== PORTADA =====*/
+.portada{
+    width: 100%;
+    height: 600px;
+    background: url('../assets/vale-one.webp') center / cover no-repeat;
+    overflow: hidden;
+    position: fixed;
+    z-index: 50;
+}
+
+
+
+/*-- PORTADA CONTAINER --*/
+.portada__container{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-- TITTLE PORTADA CONTENT --*/
+.tittle__portada-container{
+    width: 103%;
+    height: 60px;
+    background: linear-gradient(to right,#010e80, #9dd8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: system-ui;
+    margin-top: 30px;
+    transform: rotate(-3deg);
+    position: relative;
+    left: -3px;
+}
+
+
+
+
+
