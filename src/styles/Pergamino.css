@@ -13,7 +13,7 @@
 
 /*----- PERGAMINO CONTAINER -----*/
 .pergamino__container{
-  width: 360px;
+  width: 330px;
   height: 650px;
   top: 50px;
   right: 0;
@@ -37,13 +37,13 @@
 .pergamino__text-container{
     position: absolute;
     top: 230px;
-    right: 40px;
+    right: 37px;
     z-index: 55;
     text-align: center;
 }
 
 .pergamino__text{
-    font-size: 20px;
+    font-size: 19px;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
 }

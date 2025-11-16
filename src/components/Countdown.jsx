@@ -29,7 +29,7 @@ export function Countdown({ targetDate }) {
     <div className="contdown__container">
 
       <div className="countdown__tittle-container">
-        <h3 className="countdown__tittle">¿CUANTO FALTA?</h3>
+        <h3 className="countdown__tittle">¿CUÁNTO FALTA?</h3>
       </div>
 
       <div className="countdown__content">
@@ -38,28 +38,28 @@ export function Countdown({ targetDate }) {
           <h3 class="countdown__day-time time count_time">
             {days}
           </h3>
-          <p class="countdown__day-text count_text">DIAS</p>
+          <p class="countdown__day-text count_text">Días</p>
         </div>
 
         <div class="countdown__hours count">
           <h3 class="countdown__hours-time time count_time">
             {hours}
           </h3>
-          <p class="countdown__hours-text count_text">HORAS</p>
+          <p class="countdown__hours-text count_text">Horas</p>
         </div>
 
         <div class="countdown__minutes count">
           <h3 class="countdown__minutes-time time count_time">
             {minutes}
           </h3>
-          <p class="countdown__minutes-text count_text">MINUTOS</p>
+          <p class="countdown__minutes-text count_text">Minutos</p>
         </div>
 
         <div class="countdown__seconds count">
           <h3 class="countdown__seconds-time time count_time">
             {seconds}
           </h3>
-          <p class="countdown__seconss-text count_text">SEGUNDOS</p>
+          <p class="countdown__seconss-text count_text">Segundos</p>
 
         </div>
 

@@ -23,6 +23,7 @@
 
 .countdown__tittle{
     font-size: 30px;
+    font-family: 'Libre Baskerville';
 }
 
 
@@ -36,10 +37,10 @@
 
 .count_time{
     font-size: 30px;
+    font-family: 'Source Serif 4';
 }
 
 .count_text{
     font-size: 17px;
     font-weight: 600;
-    font-family: 'Oswald';
 }
