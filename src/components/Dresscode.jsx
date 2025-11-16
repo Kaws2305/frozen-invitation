@@ -21,11 +21,11 @@ export function Dresscode () {
                     </div>
 
                     <div className="dresscode__subtittle-container">
-                        <h4 className="dresscode__subtittle">FORMAL (DE ETIQUETA)</h4>
+                        <h4 className="dresscode__subtittle">FORMAL - ETIQUETA</h4>
                     </div>
 
                     <div className="dresscode__text-container">
-                        <p className="dresscode__text">EVITE USAR COLORES BLANCOS Y AZULES</p>
+                        <p className="dresscode__text">(EVITE USAR CUALQUIER TONO COLOR AZUL)</p>
                     </div>
 
                 </div>
