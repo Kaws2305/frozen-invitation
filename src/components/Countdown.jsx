@@ -29,7 +29,7 @@ export function Countdown({ targetDate }) {
     <div className="contdown__container">
 
       <div className="countdown__tittle-container">
-        <h3 className="countdown__tittle">FALTAN: </h3>
+        <h3 className="countdown__tittle">¿CUANTO FALTA?</h3>
       </div>
 
       <div className="countdown__content">

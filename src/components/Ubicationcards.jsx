@@ -18,13 +18,13 @@ export function Ubicationcards ({card__tittle, card__image, card__place, card__h
             <div className="card__place-tittle-container card__text">
                 <p className="card__place-tittle">"{card__place}"</p>
             </div>
-            
-            <div className="card__hour-container card__text">
-                <p className="card__hour">HORA: {card__hour}</p>
-            </div>
 
             <div className="card__location-container card__text">
                 <p className="card__location">LUGAR: {card__location}</p>
+            </div>
+
+            <div className="card__hour-container card__text">
+                <p className="card__hour">- {card__hour} -</p>
             </div>
 
             <div className="card__button-container card__text">

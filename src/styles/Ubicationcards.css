@@ -86,3 +86,10 @@
 .nav__icon{
     font-size: 25px;
 }
+
+
+
+/*---- CARD TEXTS CONTENT --*/
+.card__hour{
+    font-weight: 800;
+}

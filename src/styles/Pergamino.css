@@ -36,7 +36,7 @@
 /*----- PERGAMINO TEXT CONTENT -----*/
 .pergamino__text-container{
     position: absolute;
-    top: 205px;
+    top: 230px;
     right: 40px;
     z-index: 55;
     text-align: center;
@@ -58,7 +58,7 @@
     z-index: 60;
     width: 420px;
     bottom: -110px;
-    right: -60px;
+    right: -10px;
     filter: drop-shadow(5px 7px 10px #000);
 }
 

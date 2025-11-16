@@ -15,7 +15,7 @@ export function Pergamino () {
                 <img src={pergamino} alt="pergamino" className="pergamino__img" />
 
                 <div className="pergamino__text-container">
-                    <p className="pergamino__text">" TODOS LOS PRINCIPES,<br></br>PRINCESAS Y NOBLES<br></br>CORAZONES DEL REINO DE<br></br>ARENDELLE ESTAN<br></br>CORDIALMENTE INVITADOS<br></br>A UNA CELEBRACION<br></br>MAGICA LLENA DE AMOR,<br></br>NIEVE Y ALEGRIA." <br></br><br></br><br></br>MIS XV</p>
+                    <p className="pergamino__text">" TODOS LOS PRINCIPES,<br></br>PRINCESAS Y NOBLES<br></br>CORAZONES DEL REINO DE<br></br>ARENDELLE ESTAN<br></br>CORDIALMENTE INVITADOS<br></br>A UNA CELEBRACION<br></br>MAGICA LLENA DE AMOR,<br></br>NIEVE Y ALEGRIA." </p>
                 </div>
 
                 <img src={elsa} alt="elsa__img" className="elsa__img" />

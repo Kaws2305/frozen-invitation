@@ -28,9 +28,9 @@ export function Datecustom () {
                     <Countdown targetDate={targetDate} />
 
                     <div className="date__text-container">
-                        <p className="date__mounth">DIC</p>
+                        <p className="date__mounth">SÁBADO</p>
                         <p className="date__day">06</p>
-                        <p className="date__year">25</p>
+                        <p className="date__year">DICIEMBRE</p>
                     </div>
                     
 

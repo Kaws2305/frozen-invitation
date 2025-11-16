@@ -9,7 +9,7 @@ export function Portada () {
             <div className="portada__container">
 
                 <div className="tittle__portada-container">
-                    <h1 className="tittle__portada">MIS XV</h1>
+                    <h1 className="tittle__portada">MIS XV AÑOS</h1>
                 </div>
 
             </div>
