@@ -28,6 +28,7 @@
 
 .card__tittle{
     font-size: 26px;
+    font-family: 'Lora';
 }
 
 
@@ -92,4 +93,22 @@
 /*---- CARD TEXTS CONTENT --*/
 .card__hour{
     font-weight: 800;
+}
+
+
+
+
+/*-- CARD LOCATION CONTENT --*/
+.card__location{
+    font-family: 'Nanum Myeongjo';
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+
+/*-- CARD PLACE TITTLE --*/
+.card__place-tittle{
+    font-family: 'Average Sans';
+    font-weight: 600;
 }

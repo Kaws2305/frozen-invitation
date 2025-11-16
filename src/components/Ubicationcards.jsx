@@ -20,7 +20,7 @@ export function Ubicationcards ({card__tittle, card__image, card__place, card__h
             </div>
 
             <div className="card__location-container card__text">
-                <p className="card__location">LUGAR: {card__location}</p>
+                <p className="card__location">{card__location}</p>
             </div>
 
             <div className="card__hour-container card__text">

@@ -4,11 +4,11 @@
     height: auto;
     position: relative;
     z-index: 55;
-    top: 2285px;
+    top: 1975px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000a;
+    background: url('../assets/fondo_four.jpeg') center / cover no-repeat;
 }
 
 
@@ -27,12 +27,13 @@
     height: auto;
     display: flex;
     justify-content: center;
-    padding: 25px 0 60px;
+    padding: 35px 0 30px;
 }
 
 .ubication__tittle{
     font-size: 30px;
-    font-family: system-ui;
+    font-family: 'Pridi';
+    font-weight: 600;
 }
 
 
