@@ -15,10 +15,13 @@ import slideEleven from '../assets/slide-eleven.jpg';
 import slideTwelve from '../assets/slide-twelve.jpg';
 import slideThirteen from '../assets/slide-thirteen.jpg';
 import slideFourteen from '../assets/slide-fourteen.jpg';
+import slideNew from '../assets/slide-new.jpg';
+import esquinero from '../assets/esquinero.png';
 
 
 
 const images = [
+    slideNew,
     slideOne,
     slideTwo,
     slideTree,
@@ -50,6 +53,10 @@ export function Pictures () {
 
                 <div className="slide__tittle-container">
                     <h2 className="slide__tittle">MIS FOTOS</h2>
+                </div>
+
+                <div className="esquinero__container">
+                    <img src={esquinero} alt="esquinero" className="esquinero__two" />
                 </div>
 
                 <div className="slider__container">

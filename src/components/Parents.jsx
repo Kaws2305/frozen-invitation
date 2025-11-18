@@ -1,4 +1,5 @@
 import '../styles/Parents.css';
+import esquinero from '../assets/esquinero.png';
 
 
 
@@ -17,11 +18,13 @@ export function Parents () {
 
                 <div className="parents__padres-container ">
                     <h4 className="padres__tittle">- MIS PADRES -</h4>
+                    <img src={esquinero} alt="esquinero" className="esquinero__one" />
                     <p className="parents__padres">Miriam Rivera<br></br>Aldo Pimentel</p>
                 </div>
 
                 <div className="parents__padrinos-container">
                     <h4 className="padrinos__tittle">- MIS PADRINOS -</h4>
+                    <img src={esquinero} alt="esquinero" className="esquinero__one" />
                     <p className="parents__padrinos">Juan López<br></br>Vicky Gutiérrez</p>
                 </div>
 

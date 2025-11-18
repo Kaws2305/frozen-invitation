@@ -40,7 +40,7 @@
 /*----- SLIDE TITTLE CONTENT -----*/
 .slide__tittle{
     font-size: 40px;
-    font-family: 'Pridi';
+    font-family: 'Charm';
 }
 
 
@@ -69,4 +69,23 @@
     font-size: 25px;
     font-family: 'Cormorant Garamond';
     font-weight: 800;
+}
+
+
+
+
+/*---- ESQUINERO CONTENT -----*/
+.esquinero__container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 395px;
+}
+
+.esquinero__two{
+    width: 290px;
+    height: 75px;
 }

@@ -5,7 +5,7 @@
     background: url('../assets/ice_bg.jpg') center / cover no-repeat;
     position: absolute;
     z-index: 55;
-    top: 5875px;
+    top: 5965px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .dresscode__image{
-    width: 300px;
+    width: 260px;
 }
 
 
