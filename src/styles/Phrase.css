@@ -5,7 +5,7 @@
     background: url('../assets/phrase_bg.jpg') center / cover no-repeat;
     position: absolute;
     z-index: 60;
-    top: 7625px;
+    top: 7715px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,4 +27,16 @@
 .phrase__final{
     font-family: 'Parisienne';
     font-size: 40px;
+}
+
+
+.icon-tabler-snowflake{
+ width: 70px;
+ height: 70px;
+ position: relative;
+ z-index: 56;
+ top: 15px;
+ left: 0px;
+ background: none;
+
 }

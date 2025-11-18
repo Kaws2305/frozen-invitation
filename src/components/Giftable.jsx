@@ -15,7 +15,7 @@ export function Giftable () {
                 </div>
 
                 <div className="giftable__text-container">
-                    <p className="giftable__text">Para mí tu presencia es el mejor regalo,<br></br>pero si deseas obsequierme algo te<br></br>sugiero algunas opciones:</p>
+                    <p className="giftable__text">Para mi tu presencia es el mejor regalo,<br></br>pero si deseas obsequierme algo te<br></br>sugiero algunas opciones:</p>
                 </div>
 
                 <div className="giftable__logos-container">
